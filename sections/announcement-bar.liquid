@@ -46,6 +46,7 @@
               {% render 'icon-arrow' %}
             {%- endif -%}
           </p>
+          <p class="custom-desc ">{{ section.blocks.first.settings.customText | escape }}</p>
           {%- if section.blocks.first.settings.link != blank -%}
             </a>
           {%- endif -%}
@@ -245,6 +246,12 @@
           "id": "text",
           "default": "t:sections.announcement-bar.blocks.announcement.settings.text.default",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "text",
+          "id": "customText",
+          "default":  "Get 10% off on your first order" ,
+          "label": "Custom Text"
         },
         {
           "type": "url",
