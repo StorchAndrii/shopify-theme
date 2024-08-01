@@ -73,6 +73,10 @@
       }
     }
   },
+  "recently-viewed": {
+    "type": "recently-viewed",
+    "settings": {}
+  },
 
-  "order": ["main", "related-products"]
+  "order": ["main", "related-products", "recently-viewed"]
 }
