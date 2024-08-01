@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-product",
-
       "blocks": {
         "vendor": {
           "type": "text",
@@ -71,12 +70,11 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
     }
   },
-  "recently-viewed": {
-    "type": "recently-viewed",
-    "settings": {}
-  },
-
   "order": ["main", "related-products", "recently-viewed"]
 }
