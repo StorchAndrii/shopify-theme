@@ -1,6 +1,14 @@
-.custom-text {
-  text-align: center;
-}
 .announcement-bar {
   flex-direction: column;
+}
+.announcement-bar__message {
+  padding-bottom: 0;
+  padding-top: 4px;
+  min-height: 8px;
+}
+.custom-text {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 4px;
+  color: darkseagreen;
 }
