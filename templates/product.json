@@ -73,7 +73,9 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "heading": "Recently Viewed" }
+      "settings": {
+        "heading": "Recently Viewed"
+      }
     }
   },
   "order": ["main", "related-products", "recently-viewed"]
